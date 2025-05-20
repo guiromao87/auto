@@ -1,0 +1,1 @@
+create table automoveis (id bigint not null auto_increment, data_de_cadastro datetime(6), marca varchar(255), modelo varchar(255), valor decimal(38,2), primary key (id))
